@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\C">
+      <UniqueIdentifier>{9075bd15-c19c-41c0-8e57-4252876b18a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C">
+      <UniqueIdentifier>{06d5b83c-c1ed-4a03-938e-47e9a2e52c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\C++">
+      <UniqueIdentifier>{1d6095b4-1da6-426d-be83-ee50802627f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++">
+      <UniqueIdentifier>{36d9d10a-c8d4-41c0-a602-97dc68a3201d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\C\linkList.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\Queue.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\sequnenceList.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\Stack.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C++\linkList.cpp">
+      <Filter>源文件\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C++\sequenceList.cpp">
+      <Filter>源文件\C++</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\C\Stack.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\linkList.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\Queue.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\sequnenceList.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\all.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C++\linkList.h">
+      <Filter>头文件\C++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C++\sequnenceList.h">
+      <Filter>头文件\C++</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
