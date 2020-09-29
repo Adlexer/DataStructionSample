@@ -7,24 +7,23 @@
 
 #pragma once
 #include <iostream>
-#include <stdarg.h>
-using namespace std;
-
-#define LIST_INIT_SIZE 100
-#define LIST_INCREMENT 10
-
-#define OK 1
-#define ERROR 0
-#define INFEASIBLE -1
-
-typedef int Status;
 
 template<typename ElemType>
 class SqList {
+protected:
+	const size_t LIST_INIT_SIZE = 100;
+	const size_t LIST_INCREMENT = 10;
+
+	typedef uint32_t typename Status;
+	const Status ERROR = 0;
+	const Status OK = 1;
+	const Status INFEASIBLE = 2;
+
 private:
 	ElemType* elem;
 	int length;
 	int size;
+
 public:
 	SqList(Status& status);
 	ElemType& operator[](int index) {

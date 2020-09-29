@@ -6,51 +6,54 @@
 */
 
 #pragma once
+
 #include <iostream>
-#include <malloc.h>
-using namespace std;
 
-template<typename ElemType>
-class LinkList {
-protected:
-	unsigned int ERROR = 0;
-	unsigned int OK = 1;
-	typedef unsigned int Status;
+namespace struction {
 
-public:
-	LinkList();
+	template<typename ElemType>
+	class LinkList {
+	protected:
+		typedef uint32_t typename Status;
+		typename Status ERROR = 0;
+		typename Status OK = 1;
 
-	Status init();
+	public:
+		LinkList();
 
-	Status clear();
+		Status init();
 
-	Status destroy();
+		Status clear();
 
-	Status traverse();
+		//Status destroy();
 
-	bool empty();
+		Status traverse();
 
-	int length();
+		bool empty();
 
-	ElemType get();
+		int length();
 
-	int locate();
+		ElemType get();
 
-	Status insert();
+		int locate();
 
-	Status erase();
+		Status insert();
 
-	// 友元函数，允许外部函数访问内部成员
-	friend LinkList<ElemType> create(int length);
+		Status erase();
 
-private:
-	typedef struct Node Node;
-	struct Node {
-		ElemType elem;
-		Node* next;
+		// 友元函数，允许外部函数访问内部成员
+		friend LinkList<ElemType> create(int length);
+
+	private:
+		typedef struct Node Node;
+		struct Node {
+			ElemType elem;
+			Node* next;
+		};
+		Node* head;
 	};
-	Node* head;
-};
 
-template<typename ElemType>
-LinkList<ElemType> create(int length);
+	template<typename ElemType>
+	LinkList<ElemType> create(int length);
+}
+

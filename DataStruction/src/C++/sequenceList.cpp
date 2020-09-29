@@ -10,7 +10,7 @@ SqList<ElemType>::SqList(Status& status) {
 }
 
 template<typename ElemType>
-Status SqList<ElemType>::Init() noexcept {
+typename SqList<ElemType>::Status SqList<ElemType>::Init() noexcept {
 	Status status;
 	SqList(status);
 	return status;
@@ -29,7 +29,7 @@ void SqList<ElemType>::Show() noexcept{
 }
 
 template<typename ElemType>
-Status SqList<ElemType>::Insert(int index, ElemType elem) noexcept {
+typename SqList<ElemType>::Status SqList<ElemType>::Insert(int index, ElemType elem) noexcept {
 
 }
 

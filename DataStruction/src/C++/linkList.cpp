@@ -1,4 +1,5 @@
 #include "linkList.h"
+using namespace struction;
 
 template<typename ElemType>
 LinkList<ElemType>::LinkList() {
@@ -29,12 +30,6 @@ typename LinkList<ElemType>::Status LinkList<ElemType>::clear() {
 }
 
 template<typename ElemType>
-typename LinkList<ElemType>::Status LinkList<ElemType>::destroy() {
-	delete this;
-	return Status::OK;
-}
-
-template<typename ElemType>
 typename LinkList<ElemType>::Status LinkList<ElemType>::traverse() {
 	Node* prevNode;
 	prevNode = head->next;
@@ -54,8 +49,8 @@ template<typename ElemType>
 int LinkList<ElemType>::length() {
 	Node* prevNode;
 	int length = 0;
-	if (!list.next) return 0;
-	prevNode = list.next;
+	if (head.next == nullptr) return 0;
+	prevNode = head.next;
 
 	while (prevNode) {
 		length++;
@@ -63,13 +58,6 @@ int LinkList<ElemType>::length() {
 	}
 
 	return length;
-}
-
-
-template<typename ElemType>
-typename LinkList<ElemType>::Status LinkList<ElemType>::destroy() {
-	delete this;
-	return Status::OK;
 }
 
 template<typename ElemType>
