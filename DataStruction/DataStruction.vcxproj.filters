@@ -27,48 +27,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\C\linkList.c">
-      <Filter>源文件\C</Filter>
-    </ClCompile>
-    <ClCompile Include="src\C\Queue.c">
-      <Filter>源文件\C</Filter>
-    </ClCompile>
-    <ClCompile Include="src\C\sequnenceList.c">
-      <Filter>源文件\C</Filter>
-    </ClCompile>
-    <ClCompile Include="src\C\Stack.c">
-      <Filter>源文件\C</Filter>
-    </ClCompile>
     <ClCompile Include="src\C++\linkList.cpp">
       <Filter>源文件\C++</Filter>
     </ClCompile>
     <ClCompile Include="src\C++\sequenceList.cpp">
       <Filter>源文件\C++</Filter>
     </ClCompile>
+    <ClCompile Include="src\C\linkListC.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\QueueC.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\sequnenceListC.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C\StackC.c">
+      <Filter>源文件\C</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\C\Stack.h">
-      <Filter>头文件\C</Filter>
-    </ClInclude>
-    <ClInclude Include="src\C\linkList.h">
-      <Filter>头文件\C</Filter>
-    </ClInclude>
-    <ClInclude Include="src\C\Queue.h">
-      <Filter>头文件\C</Filter>
-    </ClInclude>
-    <ClInclude Include="src\C\sequnenceList.h">
-      <Filter>头文件\C</Filter>
-    </ClInclude>
-    <ClInclude Include="src\C\all.h">
-      <Filter>头文件\C</Filter>
-    </ClInclude>
     <ClInclude Include="src\C++\linkList.h">
       <Filter>头文件\C++</Filter>
     </ClInclude>
     <ClInclude Include="src\C++\sequnenceList.h">
+      <Filter>头文件\C++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\linkListC.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\allC.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\QueueC.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\sequnenceListC.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C\StackC.h">
+      <Filter>头文件\C</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\C++\all.h">
       <Filter>头文件\C++</Filter>
     </ClInclude>
   </ItemGroup>

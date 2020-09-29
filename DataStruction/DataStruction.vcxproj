@@ -142,19 +142,21 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\C++\linkList.cpp" />
     <ClCompile Include="src\C++\sequenceList.cpp" />
-    <ClCompile Include="src\C\linkList.c" />
-    <ClCompile Include="src\C\Queue.c" />
-    <ClCompile Include="src\C\sequnenceList.c" />
-    <ClCompile Include="src\C\Stack.c" />
+    <ClCompile Include="src\C\linkListC.c" />
+    <ClCompile Include="src\C\QueueC.c" />
+    <ClCompile Include="src\C\sequnenceListC.c" />
+    <ClCompile Include="src\C\StackC.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\C++\all.h" />
     <ClInclude Include="src\C++\linkList.h" />
     <ClInclude Include="src\C++\sequnenceList.h" />
-    <ClInclude Include="src\C\all.h" />
-    <ClInclude Include="src\C\linkList.h" />
-    <ClInclude Include="src\C\Queue.h" />
-    <ClInclude Include="src\C\sequnenceList.h" />
-    <ClInclude Include="src\C\Stack.h" />
+    <ClInclude Include="src\C\allC.h" />
+    <ClInclude Include="src\C\linkListC.h" />
+    <ClInclude Include="src\C\QueueC.h" />
+    <ClInclude Include="src\C\sequnenceListC.h" />
+    <ClInclude Include="src\C\StackC.h" />
+    <ClInclude Include="struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

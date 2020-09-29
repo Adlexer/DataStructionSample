@@ -1,4 +1,5 @@
-﻿#include "src/C++/linkList.h"
+﻿#include "struct.h"
+using namespace struction;
 
 int main() {
 	return 0;
